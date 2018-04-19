@@ -2,10 +2,8 @@ class Triangle
   # write code here
   attr_accessor :b, :r, :l
 
-  def initialize(right:, bottom:, left:)
-    @bottom = top
-    @right = right
-    @left = left
+  def initialize(a, b, c)
+    @b, @r, @l = [a,b,c].sort
   end
 
   def kind
