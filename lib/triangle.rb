@@ -10,6 +10,8 @@ class Triangle
     raise TriangleError unless triangle?
       if @b == @r && @r == @l
         :equilateral
+      elsif @b == @r || @r == @l || @b == @l
+
   end
 
 
