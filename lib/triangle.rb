@@ -8,9 +8,9 @@ class Triangle
     @left = left
   end
 
-  def equilateral
+  def kind
    unless @right == @bottom == @left
-     true
+
    end
  end
 
