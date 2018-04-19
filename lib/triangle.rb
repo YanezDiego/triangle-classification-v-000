@@ -1,6 +1,6 @@
 class Triangle
   # write code here
-  attr_accessor :bottom, :right, :left, :equilateral, :isosceles, :scalene
+  attr_accessor :b, :r, :l
 
   def initialize(right:, bottom:, left:)
     @bottom = top
@@ -9,7 +9,7 @@ class Triangle
   end
 
   def kind
-   
+
  end
 
 
