@@ -8,6 +8,8 @@ class Triangle
 
   def kind
     raise TriangleError unless triangle?
+      if @b == @r && @r == @l
+        :equilateral
   end
 
 
