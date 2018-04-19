@@ -18,6 +18,9 @@ class Triangle
     end
   end
 
+  def triangle?
+    positive = (@b > 0 && @r > 0 && @l > 0)
+    
 
     class TriangleError < StandardError
       #error code
