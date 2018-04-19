@@ -20,7 +20,7 @@ class Triangle
 
   def triangle?
     positive = (@b > 0 && @r > 0 && @l > 0)
-    
+    triangle_inequality = (@b + @r) > @l
 
     class TriangleError < StandardError
       #error code
