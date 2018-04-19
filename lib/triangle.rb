@@ -16,12 +16,12 @@ class Triangle
         :scalene
       end
     end
-  end
 
   def triangle?
     positive = (@b > 0 && @r > 0 && @l > 0)
     triangle_inequality = (@b + @r) > @l
     positive && triangle_inequality
+  end
 
     class TriangleError < StandardError
       #error code
