@@ -1,9 +1,9 @@
 class Triangle
   # write code here
-  attr_accessor :top, :right, :left
+  attr_accessor :bottom, :right, :left
 
-  def initialize(top:, right:, left:)
-    @top = top
+  def initialize(right:, bottom:, left:)
+    @bottom = top
     @right = right
     @left = left
   end
@@ -11,6 +11,8 @@ class Triangle
 
 
   class TriangleError < StandardError
+
+  end
 
 
 
