@@ -6,9 +6,11 @@ class Triangle
     @top = top
     @right = right
     @left = left
+  end
 
 
 
+  class TriangleError < StandardError
 
 
 
