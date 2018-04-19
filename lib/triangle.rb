@@ -12,6 +12,10 @@ class Triangle
         :equilateral
       elsif @b == @r || @r == @l || @b == @l
         :isosceles
+      else
+        :scalene
+      end
+    end
 
   end
 
