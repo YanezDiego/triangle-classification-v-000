@@ -8,6 +8,11 @@ class Triangle
     @left = left
   end
 
+  def equilateral
+   unless @right == @bottom == @left
+     true
+   end
+ end
 
 
   class TriangleError < StandardError
